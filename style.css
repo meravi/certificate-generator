@@ -1,0 +1,101 @@
+    html{ font-size: 20px; 
+        font-family: 'Philosopher', sans-serif;
+font-family: 'Amaranth', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Courgette', cursive; 
+    }
+    *{padding:0px; margin: 0px;}
+    body {
+      background-image: url('https://khadkaravi.com.np/developer-ravi-pattern.jpg');
+    }
+    #drConvert{
+width: 80%;
+-moz-width: 80%;
+-webkit-width: 80%;
+margin: auto;
+    }
+    .clearfix{ clear:  both; }
+    textarea{
+      /* padding: 0px 14px; */
+      width: 100%;
+min-height: 50vh;
+text-align: left;
+clear:  both;
+background:  #535659;
+color:  #ffffff;
+box-shadow: 4px 5px 3px #333333;
+border:  none;
+outline: 0;
+    }
+    form { font-size: 20px; }
+    #converter{
+      padding:  14px 16px;
+      border:  none;
+  text-align: center;
+  margin:  2em 0px;
+    }
+    @font-face{
+    font-family: 'drPre';
+    src: url('developerravi.TTF');
+        
+    }
+    p{
+      font-family: 'Amaranth', sans-serif;
+      font-size: 2em;
+    }
+    .drLeftButton{ text-align: center; }
+
+    input[type='submit'],.drDownoadLink{
+      clear: both;
+      padding: 14px 16px;
+      border:  0px;
+      background: #3F647D;
+      color:  #ffffff;
+      min-width: 50%;
+      outline: 0px;
+      text-decoration: none;
+    }
+    input[type='submit']:hover,.drDownoadLink:hover {
+      background: #F5EFED; color: #0F0A0A; transition: 0.3s ease-in-out;
+    }
+    input[type='text'],select{
+      border:0px 0px 2px 0px solid blue;
+      outline: 0px;
+      padding:  14px 16px;
+      min-width: 80%;
+
+    }
+    .drLeftButton input[type='submit']:hover{ background: #F5EFED; color: #0F0A0A; transition: 0.3s ease-in-out; }
+    #dr_header { height: 13vh; width: 100%; overflow: hidden; }
+    #dr_u2p{height: 64vh; }
+    #dr_u2p .dr_title{ text-align: center; text-decoration: underline; }
+    .drLeftAds { width: 20%; float: left;height:100%; overflow: hidden; }
+.drInput { width: 60%; float:  left; }
+    .dr_right_ads { float: right; width: 20%;height: 100%;overflow: hidden; }
+    #drOutput { width:  100%; height: auto; margin: 4vh 0vh; }
+    .drOutput{ font-family: drPre; font-size: 2em; }
+    .dr_footer { text-align: center; background: #3F647D; color:  #ffffff; padding: 15px 0px; }
+    .drSideMenu ul li{ display: block;margin: 0.5vh 0vh;padding: 1.4vh 1vw;background: #1B4CC4; box-shadow: 0px 0px 2px #333; }
+    .drSideMenu ul li a{ text-decoration: none; color: #ffffff;font-size: 1rem; }
+    .drSideMenu ul li:hover{ background: #222E50; transition: 0.3s ease-in; }
+    .drSUbmitMobButton { display: none; }
+    .drMobMenuFooter { display: none; }
+    #drOutput img { width:  100%; }
+    @media screen and (max-width:900px){
+      #dr_u2p{ height: auto; width: 100%; }
+      .drLeftAds{ clear:  both; width: 100%; height: 15vh; overflow:  hidden; }
+      .drInput { clear: both; width: 100%; height:  auto; margin:  4vh 0vh; }
+      .dr_right_ads { clear:  both; display: none; }
+      .drMobMenuFooter { display: block; }
+      .dr_footer { font-size: .9rem; }
+      .drSUbmitMobButton { display: block;text-align: center; }
+      .drLeftButton{ display: none; }
+    .drSUbmitMobButton input[type='submit']{
+      padding: 14px 16px;
+      border:  0px;
+      background: #3F647D;
+      color:  #ffffff;
+      margin:  4.1vh 0vh;
+      outline: 0px;
+    }
+    }
